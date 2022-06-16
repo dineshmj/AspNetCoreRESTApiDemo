@@ -8,3 +8,5 @@
 *.user
 /RESTAPIsDemo.Test/RESTAPIsDemo.Test/bin/Debug/net6.0
 /RESTAPIsDemo.Test/RESTAPIsDemo.Test/obj
+/RESTAPIsDemo.Test/bin/Debug/net6.0
+/RESTAPIsDemo.Test/obj

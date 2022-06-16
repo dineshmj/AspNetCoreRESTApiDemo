@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="RESTAPIsDemo.Test\**" />
+    <EmbeddedResource Remove="RESTAPIsDemo.Test\**" />
+    <None Remove="RESTAPIsDemo.Test\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentAssertions" Version="6.7.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
     <PackageReference Include="Moq" Version="4.18.1" />
@@ -20,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\RESTApisDemo\RESTApisDemo.csproj" />
+    <ProjectReference Include="..\RESTApisDemo\RESTApisDemo.csproj" />
   </ItemGroup>
 
 </Project>
